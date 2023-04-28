@@ -10,11 +10,61 @@
 </head>
 
 <body class="bg-fuchsia-100">
-    <nav class="flex flex-row justify-between px-3 py-2 items-center bg-purple-950">
-        <a class="text-3xl text-white font-bold" href="index.html"><span class="text-4xl">E</span>SCROC<span
-                class="text-4xl">M</span>ANIA</a>
-        <a class="text-white font-bold" href="index-jv.html">JEUX VIDEOS</a>
-        <a class="text-white font-bold" href="produit-d.html">PRODUITS DERIVES</a>
-        <a class="text-white font-bold" href="connexion.html">SE CONNECTER / S'INSCRIRE</a>
-        <a class="text-white font-bold" href="panier.html">MON PANIER</a>
-    </nav>
+    <main>
+        
+        <nav class="flex flex-row justify-between px-3 py-2 items-center bg-purple-950">
+            <a class="text-3xl text-white font-bold" href="index.html"><span class="text-4xl">E</span>SCROC<span
+                    class="text-4xl">M</span>ANIA</a>
+            <a class="text-white font-bold" href="index-jv.html">JEUX VIDEOS</a>
+            <a class="text-white font-bold" href="produit-d.html">PRODUITS DERIVES</a>
+            <a class="text-white font-bold" href="connexion.html">SE CONNECTER / S'INSCRIRE</a>
+            <a class="text-white font-bold" href="panier.html">MON PANIER</a>
+        </nav>
+
+        <div class="flex justify-around">
+            <div class="flex flex-col w-1/4 items-center my-4">
+
+                <form class="bg-fuchsia-100 my-4">
+
+                    <div class="flex flex-col justify-around my-4">
+                        <label class="text-purple-950 font-bold" for="username">
+                            Identifiant
+                        </label>
+                        <input class="py-2 px-3 text-purple-950 " id="username" type="text" placeholder="Identifiant">
+                    </div>
+                    <div class="flex flex-col justify-around my-4">
+                        <label class="text-purple-950 font-bold" for="password">
+                            Mot de passe
+                        </label>
+                        <input class="py-2 px-3 text-purple-950 my-4" id="password" type="password"
+                            placeholder="******************">
+                        <p class="flex justify-around text-purple-950 italic>Chosissez un mot de passe.">Choisissez un
+                            mot de passe</p>
+                    </div>
+                    <div class="flex flex-col justify-around">
+                        <div class="flex justify-around"><button class="text-purple-950" type="button">
+                                Se connecter / S'inscrire
+                            </button></div>
+                        <div class="flex justify-around"><a class="text-purple-950" href="#">
+                                Mot de passe oublié ?
+                            </a></div>
+                    </div>
+
+                </form>
+
+            </div>
+        </div>
+
+            <footer class="flex flex-row justify-between pt-5 pb-1 px-2 items-center bg-purple-950">
+                <a class="text-white font-bold" href="">©EcrocMania</a>
+                <a class="text-white font-bold" href="">CGV</a>
+                <a class="text-white font-bold" href="">Mentions légales</a>
+                <a class="text-white font-bold" href="">Vie privée</a>
+                <a class="text-white font-bold" href="">Assurances</a>
+
+            </footer>
+
+
+
+    </main>
+</body>
